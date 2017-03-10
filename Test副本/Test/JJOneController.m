@@ -42,13 +42,12 @@
         [_viewScroll removeFromSuperview];
         [_textScroll removeFromSuperview];
         [self addScrollView];
-
+        NSLog(@"试下");
 
     } else if(button.tag == 2) {
         [_viewScroll removeFromSuperview];
         [_textScroll removeFromSuperview];
         if(_viewScroll != 0) {
-            NSLog(@"测试");
         }
     }
 
